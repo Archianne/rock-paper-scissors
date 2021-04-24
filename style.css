@@ -210,3 +210,9 @@ i {
   text-decoration: none;
   color: #333;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin-top: 25%;
+  }
+}
