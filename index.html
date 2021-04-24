@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/8a7df27cab.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors</title>
+  </head>
+
+  <body>
+    <div id="logIn">
+      <input id="input" placeholder="Username" maxlength="9" type="text" />
+      <button id="button" onclick="startGame()">
+        <i style="color:white" class="fas fa-play"></i>
+      </button>
+    </div>
+    <main>
+      <div class="main">
+        <h1 class="title">Rock, Paper, Scissors</h1>
+
+        <p>
+          “Rock breaks scissors, scissors cuts paper, <br />paper covers rock.”
+        </p>
+
+        <div class="buttons">
+          <button class="rock" id="rock" onclick="hide()" type="button">
+            Rock
+          </button>
+          <img
+            class="rock"
+            src="https://www.biography.com/.image/t_share/MTE5NDg0MDU1MjM5ODg2MzUx/dwayne-johnson-11818916-1-402.jpg"
+            alt="Rock"
+          />
+          <button class="paper" id="paper" onclick="hide()" type="button">
+            Paper
+          </button>
+          <img
+            class="paper"
+            src="https://s.yimg.com/uu/api/res/1.2/h9bzctWp5WW3a2fq2Zgo1g--~B/aD0xMDAwO3c9MTUwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/people_218/d593ce026f8f62199bcccc3e2b71e1d5"
+            alt="Paper"
+          />
+          <button class="scissors" id="scissors" onclick="hide()" type="button">
+            Scissors
+          </button>
+          <img
+            class="scissors"
+            src="https://static.wikia.nocookie.net/p__/images/6/61/JD_as_Acissorhamds.jpeg/revision/latest?cb=20160323144628&path-prefix=protagonist"
+            alt="Scissors"
+          />
+        </div>
+
+        <table id="table">
+          <tr>
+            <td id="userName">Player</td>
+            <td>Computer</td>
+            <td>Draw</td>
+          </tr>
+          <tr>
+            <td class="scorePlayer"></td>
+            <td class="scoreComputer"></td>
+            <td rowspan="2" class="scoreDraw"></td>
+          </tr>
+          <tr>
+            <td id="playerChoice"></td>
+            <td id="computerChoice"></td>
+          </tr>
+          <tr>
+            <td colspan="3" id="message"></td>
+          </tr>
+        </table>
+      </div>
+    </main>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="/main.js"></script>
+    <!-- ----------------------- -->
+  </body>
+
+  <footer>
+    <p>Made by Helena Archer @Archianne</p>
+    <div class="my-links">
+      <a href="https://github.com/Archianne"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/helcodes/"><i class="fab fa-instagram"></i></a>
+      <a href="www.linkedin.com/in/helena-archer"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
+</html>
