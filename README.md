@@ -12,7 +12,7 @@ Simple game, made with HTML, CSS and Vanilla JavaScript.
 - `Math.random()`
 - `if() else if() else` 
 
-|  |  |  |
+| ✩ |[Play Game](https://archianne.github.io/rock-paper-scissors/)  | ✩ |
 |--|--|--|
 | ![enter image description here](https://github.com/Archianne/rock-paper-scissors/blob/main/img/username-input.png?raw=true) |![enter image description here](https://github.com/Archianne/rock-paper-scissors/blob/main/img/rock%20paper%20scissors%202.png?raw=true) |![enter image description here](https://github.com/Archianne/rock-paper-scissors/blob/main/img/gif.gif?raw=true)|
 
