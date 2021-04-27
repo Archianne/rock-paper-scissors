@@ -28,3 +28,5 @@ Simple game, made with HTML, CSS and Vanilla JavaScript.
 
 ### Clone
     https://github.com/Archianne/rock-paper-scissors.git
+
+![](https://komarev.com/ghpvc/?username=Archianne&color=gray&label=Views)

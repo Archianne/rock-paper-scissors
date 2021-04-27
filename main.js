@@ -1,3 +1,6 @@
+//  GitHub: https://github.com/Archianne
+//  Instagram: https://helcodes.com
+
 //hide table before the game starts
 function hide() {
   document.getElementById("table").style.display = "table";
