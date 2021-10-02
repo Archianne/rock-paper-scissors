@@ -1,6 +1,5 @@
 /*  GitHub: https://github.com/Archianne
     Instagram: https://helcodes.com */
-
 body {
   background-color: whitesmoke;
   font-family: "Poppins", sans-serif;
@@ -47,9 +46,7 @@ body {
   border-radius: 10px;
   transition: border 300ms ease-in;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
-    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
 main {
@@ -76,8 +73,7 @@ img {
   object-fit: cover;
   object-position: top;
   border-radius: 50%;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   filter: grayscale(100%);
   transition: all 700ms;
 }
@@ -93,9 +89,11 @@ img {
 #rock {
   grid-area: r;
 }
+
 #paper {
   grid-area: p;
 }
+
 #scissors {
   grid-area: s;
 }
@@ -114,9 +112,11 @@ button {
 .rock + img {
   border: solid 4px teal;
 }
+
 .paper + img {
   border: solid 4px tomato;
 }
+
 .scissors + img {
   border: solid 4px yellowgreen;
 }
@@ -180,9 +180,7 @@ tr {
   text-transform: uppercase;
 }
 
-
 /* Footer */
-
 footer {
   position: fixed;
   width: 100%;
@@ -219,3 +217,5 @@ i {
     margin-top: 25%;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
