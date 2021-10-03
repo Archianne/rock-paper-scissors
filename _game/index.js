@@ -1,3 +1,7 @@
+const logIn = document.querySelector(".main")
+
+window.localStorage.getItem('username');
+
 // Scissors cuts Paper
 // Paper covers Rock
 // Rock crushes Lizard
