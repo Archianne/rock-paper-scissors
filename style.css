@@ -36,12 +36,11 @@ body {
 }
 #login h1::before {
   position: absolute;
-  content: "";
   background: rgba(245, 119, 97, 0.726);
   z-index: -1;
   width: 100%;
-  height: 11px;
-  bottom: 5px;
+  height: 17px;
+  bottom: 1px;
 }
 #login form {
   display: flex;
@@ -97,10 +96,26 @@ body {
   border-radius: 10px;
   margin-top: 20px;
 }
+#login .box .x-button {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  top: -50px;
+  right: -5px;
+}
+#login .box .x-button p {
+  background-color: #9e1717;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  padding: 0px 6px 4px;
+  border-radius: 3px;
+  color: whitesmoke;
+}
 #login .box h2 {
   position: relative;
   top: -40px;
-  text-align: right;
+  text-align: left;
   text-transform: uppercase;
   font-size: 30px;
   color: #333;

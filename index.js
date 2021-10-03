@@ -1,7 +1,7 @@
 const howtoButton = document.querySelector(".howto-button");
 const box = document.querySelector(".box");
 const form = document.querySelector("#form");
-const readyButton = document.querySelector(".ready-button");
+const closeButton = document.querySelector(".x-button");
 const title = document.querySelector("#title");
 
 const toggleDisplay = () => {
