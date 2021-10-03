@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="./img/rock.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/rock.svg" type="image/x-icon" />
     <title>Login</title>
   </head>
 
   <body>
-    <main id="login">
+    <div id="login">
       <h1 id="title">Rock Paper Scissors</h1>
-      <form id="form" onsubmit="saveUsername()" action="./_game/">
+      <form id="form" onsubmit="saveUsername()">
         <input type="text" placeholder="Username" class="input" />
         <div>
           <button type="submit" class="login-button">Login</button>
@@ -38,8 +38,75 @@
           <li>(and as it always has) Rock crushes Scissors"</li>
         </ul>
       </div>
-    </main>
+    </div>
 
-    <script src="./index.js"></script>
+    <div id="game" class="hide">
+      <h1>Rock, Paper, Scissors, Lizard, Spock!</h1>
+
+      <div class="player-options">
+        <div>
+          <img
+            src="../img/rock.svg"
+            alt="Rock"
+            class="rock option"
+            data-value="rock"
+          />
+        </div>
+        <div>
+          <img
+            src="../img/paper.svg"
+            alt="Paper"
+            class="paper option"
+            data-value="paper"
+          />
+        </div>
+        <div>
+          <img
+            src="../img/scissors.svg"
+            alt="Scissors"
+            class="scissors option"
+            data-value="scissors"
+          />
+        </div>
+        <div>
+          <img
+            src="../img/lizard.svg"
+            alt="Lizard"
+            class="lizard option"
+            data-value="lizard"
+          />
+        </div>
+        <div>
+          <img
+            src="../img/spock.svg"
+            alt="Spock"
+            class="spock option"
+            data-value="spock"
+          />
+        </div>
+      </div>
+
+      <div class="results">
+        <div class="wrapper">
+          <div id="player">
+            <h3>Player</h3>
+            <span class="player-score">0</span>
+          </div>
+          <div class="player-selection">asdasd</div>
+        </div>
+
+        <div class="wrapper">
+          <div id="player">
+            <h3>Computer</h3>
+            <span class="computer-score">0</span>
+          </div>
+
+          <div class="computer-selection">asdasd</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="login.js"></script>
+    <script src="game.js"></script>
   </body>
 </html>
