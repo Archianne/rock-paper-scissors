@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login</title>
+  </head>
+
+  <body>
+    <main id="login">
+      <h1 id="title">Rock Paper Scissors</h1>
+      <form id="form">
+        <input type="text" placeholder="Username" />
+        <div>
+          <button type="submit" class="login-button">Login</button>
+          <button type="button" class="howto-button" onclick="toggleDisplay()">
+            How to play
+          </button>
+        </div>
+      </form>
+
+      <div class="box hide">
+        <h2>How to play</h2>
+        <ul>
+          <li>"Scissors cuts Paper</li>
+          <li>Paper covers Rock</li>
+          <li>Rock crushes Lizard</li>
+          <li>Lizard poisons Spock</li>
+          <li>Spock smashes Scissors</li>
+          <li>Scissors decapitates Lizard</li>
+          <li>Lizard eats Paper</li>
+          <li>Paper disproves Spock</li>
+          <li>Spock vaporizes Rock</li>
+          <li>(and as it always has) Rock crushes Scissors"</li>
+        </ul>
+        <button class="ready-button" onclick="toggleDisplay()">
+          I'm ready
+        </button>
+      </div>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
