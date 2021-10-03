@@ -198,5 +198,9 @@ body {
   border-radius: 50%;
   margin-left: 10px;
 }
+#game .results .player-selection img,
+#game .results .computer-selection img {
+  width: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */

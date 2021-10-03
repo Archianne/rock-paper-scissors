@@ -213,7 +213,7 @@ body {
     .wrapper {
       display: flex;
       flex-direction: column;
-     
+
       #computer,
       #player {
         display: flex;
@@ -226,6 +226,13 @@ body {
           border-radius: 50%;
           margin-left: 10px;
         }
+      }
+    }
+
+    .player-selection,
+    .computer-selection {
+      img {
+        width: 50px;
       }
     }
   }

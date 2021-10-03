@@ -6,7 +6,7 @@ const playGame = (e) => {
   let playerSelection = e.target.getAttribute("data-value");
   console.log(playerSelection);
 
-  displayPlayerSelection.innerHTML = playerSelection;
+  displayPlayerSelection.innerHTML = `<img src="./img/${playerSelection}.svg" alt="${playerSelection}" />`;
 };
 
 eachOption.forEach((option) => option.addEventListener("click", playGame));
