@@ -1,6 +1,6 @@
-const logIn = document.querySelector(".main")
+const username = window.localStorage.getItem('username');
 
-window.localStorage.getItem('username');
+console.log(username)
 
 // Scissors cuts Paper
 // Paper covers Rock

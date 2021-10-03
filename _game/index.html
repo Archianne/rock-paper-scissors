@@ -5,10 +5,14 @@
 <html lang="en">
   <head>
     <script
-    src="https://kit.fontawesome.com/8a7df27cab.js"
-    crossorigin="anonymous"
+      src="https://kit.fontawesome.com/8a7df27cab.js"
+      crossorigin="anonymous"
     ></script>
-    <link rel="shortcut icon" href="https://www.campcanary.co.uk/uploads/paper-icon-grey.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="https://www.campcanary.co.uk/uploads/paper-icon-grey.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,6 +21,25 @@
   </head>
 
   <body>
+    <h1>Rock, Paper, Scissors, Lizard, Spock!</h1>
+
+    <div class="player-options">
+      <div>
+        <img src="../img/rock.svg" alt="Rock" />
+      </div>
+      <div>
+        <img src="../img/paper.svg" alt="Paper" />
+      </div>
+      <div>
+        <img src="../img/scissors.svg" alt="Scissors" />
+      </div>
+      <div>
+        <img src="../img/lizard.svg" alt="Lizard" />
+      </div>
+      <div>
+        <img src="../img/spock.svg" alt="Spock" />
+      </div>
+    </div>
     <!-- <div id="logIn">
       <input id="input" placeholder="Username" maxlength="9" type="text" required>
       <button id="button" onclick="startGame()">
@@ -24,7 +47,13 @@
       </button>
     </div> -->
     <main>
-      <div class="main">
+      <h3 id="player">Player <span class="player-score">0</span></h3>
+      <div class="player-choice"></div>
+
+      <h3 id="computer">Computer <span class="computer-score">0</span></h3>
+      <div class="computer-choice"></div>
+
+      <!-- <div class="main">
         <h1 class="title">Rock, Paper, Scissors</h1>
 
         <p>
@@ -79,23 +108,18 @@
         </table>
       </div>
       
-      <div class="displayScore"></div>
+      <div class="displayScore"></div> -->
     </main>
 
-
-    <!-- Javascript -->
     <script src="./index.js"></script>
-    <script src="main.js"></script>
-    <script src="keepthescore.js"></script>
-    <!-- ----------------------- -->
   </body>
 
-  <footer>
+  <!-- <footer>
     <p>@Archianne</p>
     <div class="my-links">
       <a href="https://github.com/Archianne"><i class="fab fa-github"></i></a>
       <a href="https://www.instagram.com/helcodes/"><i class="fab fa-instagram"></i></a>
       <a href="www.linkedin.com/in/helena-archer"><i class="fab fa-linkedin"></i></a>
     </div>
-  </footer>
+  </footer> -->
 </html>

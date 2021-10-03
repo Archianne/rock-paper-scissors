@@ -41,6 +41,7 @@ body {
 
     &::before {
       position: absolute;
+      content: "";
       background: $accent3;
       z-index: -1;
       width: 100%;

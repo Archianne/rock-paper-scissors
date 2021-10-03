@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 50vw;
+  margin: 0 auto;
+}
+@media (max-width: 700px) {
+  body {
+    height: 90vh;
+  }
+}
+body h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.player-options {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.player-options div {
+  background-color: rgba(245, 119, 97, 0.479);
+  padding: 0px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+.player-options div img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+main {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+main #computer {
+  width: 50%;
+  text-align: right;
+}
+main #player {
+  width: 50%;
+}
+main #computer span,
+main #player span {
+  background-color: rgba(245, 119, 97, 0.726);
+  padding: 7px 10px;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
