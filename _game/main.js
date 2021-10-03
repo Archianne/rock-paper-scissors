@@ -100,6 +100,7 @@ function playGame(event) {
   //draw
   scoreDraw.innerHTML = winnerScores[2];
 }
+
 function checkWinner(player, computer) {
   if (player === computer) {
     return "Draw";

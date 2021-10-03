@@ -163,7 +163,7 @@ body {
   background-color: rgba(245, 119, 97, 0.479);
   padding: 0px;
   border-radius: 50%;
-  border: 5px solid white;
+  border: 5px solid #f7f7f7;
   width: 45px;
   height: 45px;
 }
@@ -180,27 +180,46 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 20px;
 }
 #game .results .wrapper {
   display: flex;
   flex-direction: column;
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  padding: 10px 20px;
+  background-color: #f7f7f7;
+}
+#game .results .wrapper:first-child {
+  align-items: flex-end;
 }
 #game .results .wrapper #computer,
 #game .results .wrapper #player {
   display: flex;
   align-items: center;
-  width: 50%;
+  margin-bottom: 20px;
 }
 #game .results .wrapper #computer span,
 #game .results .wrapper #player span {
   background-color: rgba(245, 119, 97, 0.726);
   padding: 7px 10px;
   border-radius: 50%;
+}
+#game .results .wrapper #computer .player-score,
+#game .results .wrapper #player .player-score {
+  margin-right: 10px;
+}
+#game .results .wrapper #computer .computer-score,
+#game .results .wrapper #player .computer-score {
   margin-left: 10px;
 }
 #game .results .player-selection img,
 #game .results .computer-selection img {
   width: 50px;
+}
+#game .results .computer-selection img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 /*# sourceMappingURL=style.css.map */

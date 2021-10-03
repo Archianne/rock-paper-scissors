@@ -188,7 +188,7 @@ body {
       background-color: $accent4;
       padding: 0px;
       border-radius: 50%;
-      border: 5px solid white;
+      border: 5px solid #f7f7f7;
       width: 45px;
       height: 45px;
 
@@ -209,21 +209,37 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 20px;
 
     .wrapper {
       display: flex;
       flex-direction: column;
+      width: 50%;
+      box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+      padding: 10px 20px;
+      background-color: #f7f7f7;
+
+      &:first-child {
+        align-items: flex-end;
+      }
 
       #computer,
       #player {
         display: flex;
         align-items: center;
-        width: 50%;
+        margin-bottom: 20px;
 
         span {
           background-color: $accent3;
           padding: 7px 10px;
           border-radius: 50%;
+        }
+
+        .player-score {
+          margin-right: 10px;
+        }
+
+        .computer-score {
           margin-left: 10px;
         }
       }
@@ -233,6 +249,13 @@ body {
     .computer-selection {
       img {
         width: 50px;
+      }
+    }
+
+    .computer-selection {
+      img {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
       }
     }
   }
