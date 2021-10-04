@@ -150,6 +150,24 @@ body {
   background: rgba(245, 119, 97, 0.726);
 }
 
+#game {
+  width: 500px;
+}
+@media (max-width: 700px) {
+  #game {
+    width: 90vw;
+  }
+}
+#game h1 {
+  font-family: "Bebas Neue";
+  text-align: center;
+  font-size: 40px;
+}
+@media (max-width: 700px) {
+  #game h1 {
+    font-size: 25px;
+  }
+}
 #game .player-options {
   height: 45px;
   margin-top: 20px;
@@ -204,6 +222,8 @@ body {
   background-color: rgba(245, 119, 97, 0.726);
   padding: 7px 10px;
   border-radius: 50%;
+  color: #333;
+  font-weight: 700;
 }
 #game .results .wrapper #computer .player-score,
 #game .results .wrapper #player .player-score {
