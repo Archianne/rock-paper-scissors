@@ -1,8 +1,28 @@
-##  Rock Paper Scissors
+# Rock, Paper, Scissors (Lizard and Spock!)
+This is a checkpoint challenge I've done with [@SchoolOfCode](https://github.com/SchoolOfCode/), where the user can play a simple game of Rock, Paper, Scissors. I've refactored this game to improve JavaScript, implement Sass and add 2 more options: Lizard and Spock (Yes, the game that is played in 'The Big Bang Theory'!)
 
-Simple game, made with HTML, CSS and Vanilla JavaScript.
+<p align="center">
+  <a href="https://archianne.codes/rock-paper-scissors/">DEMO</a>
+</p>
 
-### Learn:
+| Login | Game |
+|--|--|
+|<img src='https://github.com/Archianne/rock-paper-scissors/blob/main/img/login.png?raw=true'/>| <img src='https://github.com/Archianne/rock-paper-scissors/blob/main/img/play-game.png?raw=true'/>|
+
+## How to Play
+
+- "Scissors cuts Paper
+- Paper covers Rock
+- Rock crushes Lizard
+- Lizard poisons Spock
+- Spock smashes Scissors
+- Scissors decapitates Lizard
+- Lizard eats Paper
+- Paper disproves Spock
+- Spock vaporizes Rock
+- (and as it always has) Rock crushes Scissors"
+
+### Learnt:
 - `document.querySelector()`
 - `document.querySelectorAll()`
 - `document.getElementById()`
@@ -12,21 +32,8 @@ Simple game, made with HTML, CSS and Vanilla JavaScript.
 - `Math.random()`
 - `if() else if() else` 
 
-| ✩ |[Play Game](https://archianne.github.io/rock-paper-scissors/)  | ✩ |
-|--|--|--|
-| ![enter image description here](https://github.com/Archianne/rock-paper-scissors/blob/main/img/username-input.png?raw=true) |![enter image description here](https://github.com/Archianne/rock-paper-scissors/blob/main/img/rock%20paper%20scissors%202.png?raw=true) |![enter image description here](https://github.com/Archianne/rock-paper-scissors/blob/main/img/gif.gif?raw=true)|
+## Refactoring
 
-### My Challenges:
-- [x] Get username input, and display as Player
-- [x] Use CSS to add some animation to the playing experience
-- Some resources: [Animations](https://animista.net/) | [Colour schemes](https://coolors.co/generate) | [Gradients](https://uigradients.com/) | [Box shadows](https://getcssscan.com/css-box-shadow-examples)  
-
-### How to Play
-- Enter your username
-- Press play (can be either button or Enter)
-- Choose Rock, Paper or Scissors
-
-### Clone
-    https://github.com/Archianne/rock-paper-scissors.git
-
-![](https://komarev.com/ghpvc/?username=Archianne&color=gray&label=Views)
+* Changed from CSS to SASS
+* Changed design to something more modern-looking
+* Improved JavaScript
