@@ -7,6 +7,7 @@ const form = document.querySelector("#form");
 const closeButton = document.querySelector(".x-button");
 const title = document.querySelector("#title");
 const username = document.querySelector("#username");
+const favicon = document.querySelector("link[rel~='icon']");
 // const usernameSaved = window.localStorage.getItem("username");
 
 const toggleDisplay = () => {
@@ -19,6 +20,9 @@ const saveUsername = () => {
   // window.localStorage.setItem("username", input.value);
   loginPage.classList.add("hide");
   gamePage.classList.remove("hide");
+  favicon.href = './img/scissors.svg';
+  document.title = "Play Game"
+
 
   input.value.length === 0
     ? (username.innerHTML = "Player")

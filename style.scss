@@ -259,4 +259,15 @@ body {
       }
     }
   }
+
+  .show-message {
+    background-color: $accent;
+    text-align: center;
+    color: $background;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
 }

@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="./img/rock.svg" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="https://iconarchive.com/download/i91933/icons8/windows-8/User-Interface-Login.ico"
+      type="image/x-icon"
+    />
     <title>Login</title>
   </head>
 
@@ -46,7 +50,7 @@
       <div class="player-options">
         <div>
           <img
-            src="../img/rock.svg"
+            src="./img/rock.svg"
             alt="Rock"
             class="rock option"
             data-value="rock"
@@ -54,7 +58,7 @@
         </div>
         <div>
           <img
-            src="../img/paper.svg"
+            src="./img/paper.svg"
             alt="Paper"
             class="paper option"
             data-value="paper"
@@ -62,7 +66,7 @@
         </div>
         <div>
           <img
-            src="../img/scissors.svg"
+            src="./img/scissors.svg"
             alt="Scissors"
             class="scissors option"
             data-value="scissors"
@@ -70,7 +74,7 @@
         </div>
         <div>
           <img
-            src="../img/lizard.svg"
+            src="./img/lizard.svg"
             alt="Lizard"
             class="lizard option"
             data-value="lizard"
@@ -78,7 +82,7 @@
         </div>
         <div>
           <img
-            src="../img/spock.svg"
+            src="./img/spock.svg"
             alt="Spock"
             class="spock option"
             data-value="spock"
@@ -86,13 +90,13 @@
         </div>
       </div>
 
-      <div class="results">
+      <div class="results hide">
         <div class="wrapper">
           <div id="player">
             <span class="player-score">0</span>
             <h3 id="username">Player</h3>
           </div>
-          <div class="player-selection">asdasd</div>
+          <div class="player-selection"></div>
         </div>
 
         <div class="wrapper">
@@ -101,9 +105,10 @@
             <span class="computer-score">0</span>
           </div>
 
-          <div class="computer-selection">asdasd</div>
+          <div class="computer-selection"></div>
         </div>
       </div>
+      <div class="show-message"></div>
     </div>
 
     <script src="login.js"></script>

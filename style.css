@@ -221,5 +221,15 @@ body {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
+#game .show-message {
+  background-color: tomato;
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
