@@ -2,7 +2,7 @@
 This is a checkpoint challenge I've done with [@SchoolOfCode](https://github.com/SchoolOfCode/), where the user can play a simple game of Rock, Paper, Scissors. I've refactored this game to improve JavaScript, implement Sass and add 2 more options: Lizard and Spock (Yes, the game that is played in 'The Big Bang Theory'!)
 
 <p align="center">
-  <a href="https://archianne.codes/rock-paper-scissors/">DEMO</a>
+  <a href="https://archianne.github.io/rock-paper-scissors/">DEMO</a>
 </p>
 
 | Login | Game |
