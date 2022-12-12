@@ -25,15 +25,27 @@ eachOption.forEach((option) =>
 const computerFuntion = (playerSelection) => {
   let computerSelection = Math.floor(Math.random() * 5 + 1);
 
-  computerSelection === 1
-    ? (computerSelection = "rock")
-    : computerSelection === 2
-    ? (computerSelection = "paper")
-    : computerSelection === 3
-    ? (computerSelection = "scissors")
-    : computerSelection === 4
-    ? (computerSelection = "lizard")
-    : (computerSelection = "spock");
+  // refactoring, the map eliminates the need to use multiple
+  // "ifs" and makes the code more readable
+  const computerSelectionsMap = new Map([
+    [1, "rock"],
+    [2, "paper"],
+    [3, "scissors"],
+    [4, "lizard"],
+    [5, "spock"],
+  ]);
+
+  computerSelection = computerSelectionsMap.get(computerSelection);
+
+  // computerSelection === 1
+  //   ? (computerSelection = "rock")
+  //   : computerSelection === 2
+  //   ? (computerSelection = "paper")
+  //   : computerSelection === 3
+  //   ? (computerSelection = "scissors")
+  //   : computerSelection === 4
+  //   ? (computerSelection = "lizard")
+  //   : (computerSelection = "spock");
 
   displayComputerSelection.innerHTML = `<img src="./img/${computerSelection}.svg" alt="${computerSelection}" />`;
   let result = checkWinner(playerSelection, computerSelection);
